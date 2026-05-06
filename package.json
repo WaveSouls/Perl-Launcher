@@ -1,0 +1,10 @@
+{
+  "name": "perl-cheats-launcher",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build:games-bundle": "node tools/build-games-bundle.mjs",
+    "apply-catalog": "node tools/apply-catalog.mjs",
+    "dev": "npx --yes serve . -p 5173"
+  }
+}
